@@ -5,7 +5,7 @@ A simple password generator application implemented in Python using Tkinter for 
 
 
 ## 🚀 About Me
-Hey, I am Abdullah Zia. This is my first project on python after learning it from Coursera where it was taught by Prof. Charles Severance.(2021)
+Hey, I am Abdullah Zia. This is my first project on python after learning it from Coursera(2021).
 
 This documentation was regenerated through ChatGPT. All hail the AI rev.(2023)
 
