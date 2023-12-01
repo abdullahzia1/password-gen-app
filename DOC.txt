@@ -1,0 +1,47 @@
+# Password Generator App
+
+This is a simple password generator application implemented in Python using the Tkinter library for the graphical user interface. The application allows users to specify the desired length for a randomly generated password, and it provides a button to trigger the password generation.
+
+## Getting Started
+
+To run the password generator app, make sure you have Python installed on your system. Execute the script, and a graphical user interface window will appear, prompting you to input the desired password length.
+
+## Usage
+
+1. Enter the desired password length in the provided entry field.
+2. Click the "Generate Password" button to generate a random password.
+3. A message box will display the generated password.
+
+## Implementation Details
+
+The code uses the Tkinter library for the GUI components and the `random` and `string` libraries for password generation.
+
+### Classes
+
+- **PasswordGeneratorApp:** The main class representing the password generator application. It contains methods to initialize the GUI, handle user input, and generate passwords.
+
+### Methods
+
+- **__init__(self, root):** Initializes the application, creating the main window and UI components.
+
+- **generate_password(self):** Generates a random password based on user input and displays it in a message box.
+
+## Dependencies
+
+- Tkinter: Used for creating the graphical user interface.
+- random: Used for generating random values.
+- string: Used for working with string-related operations.
+
+## Example
+
+```python
+if __name__ == "__main__":
+    import tkinter as tk
+
+    # Create the main Tkinter window and the PasswordGeneratorApp instance
+    root = tk.Tk()
+    app = PasswordGeneratorApp(root)
+
+    # Start the Tkinter event loop
+    root.mainloop()
+
